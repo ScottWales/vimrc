@@ -52,6 +52,6 @@ function! s:insert_include_guard()
 "	execute "normal! o// Copyright Scott Wales (2010)"
 	normal! G3o
 	execute "normal! Go#endif /* " . gatename . " */"
-	normal! Go
-	normal! 3k
+	normal! 2k
 endfunction
+autocmd BufNewFile *.{h,hpp} call <SID>insert_include_guard()
