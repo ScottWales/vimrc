@@ -1,0 +1,5 @@
+Usage:
+
+    git clone git@github.com:ScottWales/vimrc.git ~/.vim
+    ln -s ~/.vim/vimrc ~/.vimrc
+
